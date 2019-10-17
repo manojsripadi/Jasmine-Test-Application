@@ -15,6 +15,6 @@ getTestBed().initTestEnvironment(
   platformBrowserDynamicTesting()
 );
 // Then we find all the tests.
-const context = require.context('./app/vote-component/vote', true, /vote.component\.spec\.ts$/);
+const context = require.context('./app/todo-form', true, /todo-form.component\.spec\.ts$/);
 // And load the modules.
 context.keys().map(context);
